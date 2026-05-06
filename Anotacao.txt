@@ -1,9 +1,11 @@
+Ínicio:
 npm init -y
 npm i -g typescript
 npm i ts-node
 npm i express mysql2 dotenv @types/express @types/node
 tsc --init
-
+Para rodar o servidor, utiliar o comando "npx ts-node src/app.ts"
+ (Re utilizar o npm i sempre que repassar os arquivos do Git para outras máquinas e refazer o ".env")
 export interface Produto{
     id?: number; (A interrogação significa opcionalidade)
     nome: string;
@@ -21,3 +23,5 @@ Rotas
 Servidor 
 
 Front CRIAR LISTAR ALTERAR DELETAR
+
+Para rodar o servidor, utiliar o comando "npx ts-node src/app.ts"
